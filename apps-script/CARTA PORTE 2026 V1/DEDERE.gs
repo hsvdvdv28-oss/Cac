@@ -1,0 +1,21 @@
+function DEDERE() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.getRange('AQ6:AZ14').activate();
+  spreadsheet.getActiveRangeList().clear({contentsOnly: true, skipFilteredRows: true});
+  spreadsheet.getRange('AL18:AN18').activate();
+  spreadsheet.getCurrentCell().setValue('');
+  spreadsheet.getRange('AO18:AQ18').activate();
+  spreadsheet.getCurrentCell().setValue('1 VIAJE');
+  spreadsheet.getRange('AR18:AT18').activate();
+  spreadsheet.getCurrentCell().setValue('');
+  spreadsheet.getRange('AU18:AW18').activate();
+  spreadsheet.getCurrentCell().setValue('');
+  spreadsheet.getRange('AX18:AZ18').activate();
+  spreadsheet.getCurrentCell().setValue('');
+  spreadsheet.getRange('BA18:BC18').activate();
+  spreadsheet.getCurrentCell().setValue('____');
+  spreadsheet.getRange('AP22:AZ22').activate();
+  spreadsheet.getCurrentCell().setValue('PRODUCTOS VARIOS');
+  spreadsheet.getRange('AQ30:AZ38').activate();
+  spreadsheet.getActiveRangeList().clear({contentsOnly: true, skipFilteredRows: true});
+};

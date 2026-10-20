@@ -1,0 +1,65 @@
+function MARVEL() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.getRange('B13:D15').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD21:AM23').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B13:D15').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B17:E17').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD25:AM25').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B17:E17').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B18:E18').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD26:AM26').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B18:E18').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B19:E19').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD27:AM27').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B19:E19').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B20:E20').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD28:AM28').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B20:E20').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+};
+
+function TXIE() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.getRange('B4:D6').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD21:AM23').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B4:D6').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B8:E8').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD25:AM25').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B8:E8').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B9:E9').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD26:AM26').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B9:E9').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B10:E10').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD27:AM27').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B10:E10').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('MANTENER OCULTO 1'), true);
+  spreadsheet.getRange('B11:E11').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('AD28:AM28').activate();
+  spreadsheet.getRange('\'MANTENER OCULTO 1\'!B11:E11').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+};
+
+function MARVELPC() {
+  var spreadsheet = SpreadsheetApp.getActive();
+  spreadsheet.getRange('R15').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PORTES'), true);
+  spreadsheet.getRange('BP663:BY671').activate();
+  spreadsheet.setActiveSheet(spreadsheet.getSheetByName('PROCESO DE INFORMACION'), true);
+  spreadsheet.getRange('U6:AD14').activate();
+  spreadsheet.getRange('PORTES!BP663:BY671').copyTo(spreadsheet.getActiveRange(), SpreadsheetApp.CopyPasteType.PASTE_NORMAL, false);
+};
